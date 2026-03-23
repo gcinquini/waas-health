@@ -6,6 +6,12 @@ export default function Home() {
   return (
     <main>
       <Hero
+        // ESTAS SON LAS PROPS QUE FALTABAN:
+        title="Tu sonrisa,"
+        titleHighlight="nuestra pasión"
+        subtitle="Tratamientos personalizados con tecnología de vanguardia y profesionales dedicados a tu bienestar integral."
+        
+        // EL RESTO SE MANTIENE IGUAL:
         ctaPrimary={{ label: "Reservar turno", href: "/contacto" }}
         ctaSecondary={{ label: "Ver tratamientos", href: "/servicios" }}
         stats={[
